@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.panel {
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 150px;
+    overflow-y: auto;
+    background-color: #f9f9f9;
+}
+
+.notification {
+    font-weight: bold;
+    color: #333;
+}
